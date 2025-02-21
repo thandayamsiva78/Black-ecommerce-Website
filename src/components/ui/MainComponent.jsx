@@ -117,7 +117,7 @@ function MainComponent() {
                             </svg>
                         </div>
                         {openDialogBox && (
-                            <ul className="absolute top-6 bg-white w-full p-2 rounded-b-3xl z-10">
+                            <ul className="absolute top-6 bg-white w-full p-2 rounded-b-3xl z-10 max-h-[600px] overflow-y-auto">
                                 {search.length > 0 ? (
                                     search.map((prod) => (
                                         <li
