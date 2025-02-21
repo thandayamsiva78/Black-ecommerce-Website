@@ -19,7 +19,7 @@ function ProductViewComponent() {
     }
 
     return (
-        <section className="shadow-lg rounded-lg h-[100vh]">
+        <section className="h-[100vh]">
             <section className="productsView grid  lg:grid-cols-[400px_1fr] md:grid-cols-[400px_1fr] grid-cols-1 gap-4 p-4 shadow-md">
                 <aside className="flex flex-col items-center">
                     <img src={product.Image} alt={product.Name} className="h-96 w-full object-cover" />
